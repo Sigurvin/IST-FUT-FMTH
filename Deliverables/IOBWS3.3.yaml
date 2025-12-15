@@ -6932,8 +6932,6 @@ components:
           $ref: "#/components/schemas/ultimateDebtorId"
         icelandicPurposeCode: # batchBookingPreferred
           $ref: "#/components/schemas/icelandicPurposeCode"
-        centralBankPurposeCode: # batchBookingPreferred
-          $ref: "#/components/schemas/centralBankPurposeCode"
         remittanceInformationUnstructured: # batchBookingPreferred
           $ref: "#/components/schemas/remittanceInformationUnstructured"
         remittanceInformationStructuredArray: # batchBookingPreferred
