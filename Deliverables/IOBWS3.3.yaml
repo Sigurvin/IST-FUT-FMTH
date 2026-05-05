@@ -6926,10 +6926,6 @@ components:
           maxLength: 35
         debtorId: # N.A. for all, but can be used by ASPSP if needed # batchBookingPreferred
           $ref: "#/components/schemas/debtorId"
-        ultimateDebtor: # N.A. for all, but can be used by ASPSP if needed # batchBookingPreferred
-          $ref: "#/components/schemas/ultimateDebtor"
-        ultimateDebtorId: # batchBookingPreferred
-          $ref: "#/components/schemas/ultimateDebtorId"
         icelandicPurposeCode: # batchBookingPreferred
           $ref: "#/components/schemas/icelandicPurposeCode"
         remittanceInformationUnstructured: # batchBookingPreferred
